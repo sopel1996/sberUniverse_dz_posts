@@ -1,0 +1,90 @@
+* {
+    margin    : 0;
+    padding   : 0;
+    box-sizing: border-box;
+}
+
+.sectionInner {
+    width : 1150px;
+    margin: 0 auto;
+}
+
+.postsSection {}
+
+.sectionInner {}
+
+.postsSection_postsByAuthor {
+    margin: 0 0 30px 0;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: rgba(231, 228, 228, 0.247);
+    box-shadow: 0px 0px 23px 6px rgba(0, 0, 0, 0.17);
+
+}
+
+.postsSection_postsByAuthor-autorInfo {
+    display        : flex;
+    flex-direction : column;
+    align-items    : flex-start;
+    justify-content: space-between;
+    margin         : 0 0 20px 0;
+}
+
+.authorPhoto {
+    width : 150px;
+    height: 150px;
+    margin: 0 0 20px 0;
+}
+
+.atuhorName {}
+
+.postsSection_postsByAuthor-posts {
+    display              : grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap             : 20px;
+}
+
+.postsSection_postsByAuthor-postsItem {
+    display        : flex;
+    flex-direction : column;
+    align-items    : center;
+    justify-content: space-between;
+    border         : 1px solid rgb(180, 177, 177);
+    border-radius  : 15px;
+    padding        : 20px;
+
+}
+
+.firstRow {
+    display        : flex;
+    flex-direction : row;
+    align-items    : flex-start;
+    justify-content: space-between;
+    width          : 100%;
+    padding        : 0 0 20px 0;
+}
+
+.itemTitle {
+    text-transform: uppercase;
+    font-size     : 20px;
+}
+
+.itemDate {
+    font-size: 14px;
+}
+
+.secondRow {
+    display: flex;
+    width: 100%;
+}
+
+.quote {
+    width : 20px;
+    height: 20px;
+    margin: 0 10px 0 0;
+}
+
+.itemContent {
+    display: flex;
+    width  : 100%;
+}
